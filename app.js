@@ -5,10 +5,10 @@ const request = require("request");
 
 
 
-
+app.use(express.static("public"));
 
 app.get("/", function(req,res){
-    res.send("This server  is up and running");
+    res.sendFile(__dirname + "/signup.html");
 });
 
 
