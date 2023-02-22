@@ -87,21 +87,21 @@
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
-  <form>
+  <form method="post" action="/">
     <img class="mb-4" src="images/LOGO_ONLY_NO_TEXT (1).png" alt="" width="72" height="72">
     <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter!</h1>
 
     <div class="form-floating">
-      <input type="text" id="fname" class="form-control top" placeholder="First Name" required autofocus>
+      <input type="text" name="fname" id="fname" class="form-control top" placeholder="First Name" required autofocus>
       <label for="fname">First Name</label>
     </div>
     <div class="form-floating">
-      <input type="text" id="lname" class="form-control middle" placeholder="Last Name" required>
+      <input type="text" name="lname" id="lname" class="form-control middle" placeholder="Last Name" required>
       <label for="lname">Last Name</label>
 
     </div>
     <div class="form-floating">
-        <input type="email" id="emailadd" class="form-control bottom" placeholder="Email" required>
+        <input type="email" name="email" id="emailadd" class="form-control bottom" placeholder="Email" required>
         <label for="emailadd">Email</label>
        
       </div>
