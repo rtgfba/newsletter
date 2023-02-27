@@ -5,8 +5,8 @@ const request = require("request");
 const https = require("https");
 require('dotenv').config();
 const dotenv = require("dotenv");
-const apiKey = process.env.API_KEY 
-const audienceKey = process.env.AUDIENCE_KEY
+const apiKey = "remi1:a23e9f1c8d32c4ede03a4e4c16d9e127-us21" 
+const audienceKey = "52b5ef4e51"
 
 
 app.use(express.static("public"));
