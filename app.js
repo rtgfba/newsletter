@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
 require('dotenv').config();
+const dotenv = require("dotenv");
 const apiKey = process.env.API_KEY 
 const audienceKey = process.env.AUDIENCE_KEY
 
