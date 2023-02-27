@@ -71,7 +71,7 @@ app.post("/failure", function(req,res){
 
 
 
-
-app.listen(3000, function(){
+// process.env.port makes heroku a dynamic port, || = or
+app.listen(process.env.PORT || 3000, function(){
     console.log("This server is running on port 3000");
 });
