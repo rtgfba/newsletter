@@ -21,7 +21,7 @@ app.get("/", function(req,res){
 app.post("/", function(req, res){ 
     const firstName = req.body.fname;
     const lastName = req.body.lname;
-    const email = req.body.email;
+    const email = req.body.email; 
     
     const data = {
         members:[
