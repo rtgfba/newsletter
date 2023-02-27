@@ -5,8 +5,7 @@ const request = require("request");
 const https = require("https");
 require('dotenv').config();
 const dotenv = require("dotenv");
-// const apiKey = "remi1:a23e9f1c8d32c4ede03a4e4c16d9e127-us21" 
-// const audienceKey = "52b5ef4e51"
+
 
 
 app.use(express.static("public"));
@@ -42,7 +41,7 @@ app.post("/", function(req, res){
 
     const options = {
         method: "POST",
-        auth: "remi1:a23e9f1c8d32c4ede03a4e4c16d9e127-us21" 
+        auth: "remi1:619f7d990abb7d3d19914a0591a93149-us21" 
     }
 
 
