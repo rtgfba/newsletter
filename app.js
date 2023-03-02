@@ -38,7 +38,7 @@ app.post("/", function(req, res){
 
     const jSonData = JSON.stringify(data);
 
-    const url = "https://us21.api.mailchimp.com/3.0/lists/" + audienceKey +"";
+    const url = "https://us21.api.mailchimp.com/3.0/lists/"+ audienceKey +"";
 
     const options = {
         method: "POST",
@@ -74,4 +74,4 @@ app.post("/failure", function(req,res){
 // process.env.port makes heroku a dynamic port, || = or
 app.listen(process.env.PORT || 3000, function(){
     console.log("This server is running on port 3000");
-});
+}); 
